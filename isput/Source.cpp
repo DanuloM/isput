@@ -148,6 +148,7 @@ public:
 
 int loginorregMenu() {
 	int choice;
+	cout << "Login or register menu" << endl;
 	cout << "0-back" << endl;
 	cout << "1-login"<<endl;
 	cout << "2-register"<<endl;
@@ -158,6 +159,7 @@ int loginorregMenu() {
 
 int adminMenu() {
 	int choice;
+	cout << "Admin menu" << endl;
 	cout << "0-back" << endl;
 	cout << "1-showgrades history" << endl;
 	cout << "2-showgrades geography" << endl;
@@ -167,6 +169,7 @@ int adminMenu() {
 }
 int testMenu() {
 	int choice;
+	cout << "Test menu" << endl;
 	cout << "0-back" << endl;
 	cout << "1-start test History" << endl;
 	cout << "2-start test Geography" << endl;
@@ -177,6 +180,7 @@ int testMenu() {
 
 int mainMenu() {
 	int choice;
+	cout << "Main menu" << endl;
 	cout << "0-exit"<<endl;
 	cout << "1-Admin"<<endl;
 	cout << "2-Test"<<endl;
@@ -649,6 +653,7 @@ int main() {
 				exit(0);
 				break;
 			case 1:
+				system("cls");
 				do {
 					int choice = loginorregMenu();
 					system("cls");
@@ -681,6 +686,7 @@ int main() {
 				} while (q != false);
 				break;
 			case 2:
+				system("cls");
 				do {
 					int choice = loginorregMenu();
 					system("cls");
